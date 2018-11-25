@@ -1,0 +1,14 @@
+.Rooms {
+    grid-column: 1 / 2;
+    text-align: left;
+    background-color: #182533;
+    p {
+        font-size: 12px;
+        cursor: pointer;
+        padding: 10px 15px;
+        margin: 0;
+    }
+    .active {
+        background-color: #2b5278;
+    }
+}

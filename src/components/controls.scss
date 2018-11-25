@@ -1,0 +1,18 @@
+.Controls {
+    display: flex;
+    input {
+        flex: 1;
+        outline: none;
+        border: none;
+        color: inherit;
+        padding: 5px 10px;
+        background-color: #182533;
+        &::placeholder {
+            color: darken(#ECEFF1, 60%)
+        }
+    }
+    .button {
+        height: 100%;
+        padding: 5px 10px;
+    }
+}
